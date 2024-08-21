@@ -226,6 +226,34 @@ By using branching effectively, teams can work together efficiently, reducing er
 
 ## Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?
 
+Pull requests play a crucial role in the GitHub workflow, facilitating code review and collaboration. Here's how:
+
+_Facilitating code review and collaboration:_
+
+1. *Code review*: Pull requests allow team members to review changes before they're merged into the main branch.
+2. *Discussion*: Team members can discuss changes, ask questions, and provide feedback.
+3. *Collaboration*: Multiple developers can work on a feature or fix, and pull requests help integrate their changes.
+
+_Typical steps involved in creating and merging a pull request:_
+
+1. *Create a new branch*: Develop your feature or fix in a separate branch.
+2. *Make changes and commit*: Commit your changes to the new branch.
+3. *Push to GitHub*: Push your branch to GitHub.
+4. *Create a pull request*: Go to GitHub and create a pull request from your branch to the main branch (e.g., `master`).
+5. *Add reviewers*: Assign team members to review your pull request.
+6. *Review and discuss*: Reviewers examine your changes, ask questions, and provide feedback.
+7. *Update and refine*: Address feedback, make updates, and push new commits to the branch.
+8. *Approve and merge*: Once approved, merge the pull request into the main branch.
+9. *Delete the branch*: Remove the feature branch after merging.
+
+Additionally, GitHub offers features like:
+
+- *Code owner approvals*: Require approvals from specific team members or code owners.
+- *Status checks*: Integrate automated tests, builds, or other checks to ensure changes meet quality standards.
+- *Pull request templates*: Use templates to ensure consistent information and formatting.
+
+By using pull requests, teams can ensure high-quality code, encourage collaboration, and maintain a clear record of changes and discussions.
+
 ## Discuss the concept of "forking" a repository on GitHub. How does forking differ from cloning, and what are some scenarios where forking would be particularly useful?
 
 ## Examine the importance of issues and project boards on GitHub. How can they be used to track bugs, manage tasks, and improve project organization? Provide examples of how these tools can enhance collaborative efforts.
